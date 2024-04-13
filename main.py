@@ -113,7 +113,7 @@ def render_about_window():
         math.sin(glfw.get_time() * 1.0) * 0.5 + 0.5,
         1.0
     ]
-    imgui.text_colored("Cheat the game because it doesn't mind cheating you. ~ CTG", *color2)
+    imgui.text_colored("Cheat the game because, believe me, it doesn't mind cheating you. ~ CTG", *color2)
     if imgui.button("Learn Cheat Engine"):
         webbrowser.open("https://www.youtube.com/@ChrisFayte?sub_confirmation=1")
     if imgui.button("Learn More Cheat Engine / Reverse Engineering"):
